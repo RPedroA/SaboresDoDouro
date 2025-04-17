@@ -1,0 +1,172 @@
+/* Geral */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #422E24;
+    color: #E7DFD3;
+    line-height: 1.6;
+}
+
+h1, h2 {
+    margin: 0;
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+img {
+    max-width: 100%;
+}
+
+.about-us {
+    background-color: #422E24;
+    color: #E7DFD3;
+    text-align: center;
+    padding-top: 80px;
+}
+
+.about-banner img {
+    margin: 40px auto 40px auto;
+    display: block;
+    border-radius: 5px;
+}
+
+.about-history {
+    background-color: #000000;
+    padding: 50px 600px;
+    color: #E7DFD3;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: justify;
+}
+
+.about-history h2 {
+    color: #DCD1BF;
+    margin-bottom: 20px;
+    font-size: 2rem;
+}
+
+.about-history p {
+    margin-bottom: 20px;
+    font-size: 0.9rem;
+    line-height: 1.8;
+}
+
+@media (max-width: 767px) {
+    .about-us {
+        padding-top: 40px;
+        margin-top: 80px;
+    }
+
+    .about-banner img {
+        width: 100%;
+        max-width: none;
+        margin: 20px 0;
+    }
+
+    .about-history {
+        padding: 20px;
+        text-align: left;
+    }
+
+    .about-history h2 {
+        font-size: 1.5rem;
+        margin-bottom: 10px;
+    }
+
+    .about-history p {
+        font-size: 0.85rem;
+        line-height: 1.5;
+        margin-bottom: 15px;
+    }
+
+    .contact-info .row {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .contact-info .row > div {
+        align-items: center;
+        text-align: center;
+    }
+
+    .contact-info p {
+        font-size: 0.8rem;
+    }
+
+    .contact-info img {
+        height: 24px;
+    }
+}
+
+.contact-info {
+    background-color: #422E24;
+    padding: 30px 20px;
+}
+
+.contact-info .row {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    text-align: center;
+    gap: 40px;
+}
+
+.contact-info .row > div {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-info .row img {
+    width: auto;
+    height: 20px;
+    margin-bottom: 8px;
+}
+
+.social {
+    width: auto;
+    height: 40px;
+    margin-bottom: 8px;
+}
+
+.contact-info p {
+    margin: 0;
+    font-size: 0.8rem;
+}
+
+.contact-info strong {
+    display: block;
+    margin-bottom: 4px;
+    font-size: 0.9rem;
+    color: #E7DFD3;
+}
+
+.contact-info a img {
+    height: 35px;
+    width: auto;
+    margin-right: 5px;
+}
+
+.contact-info a {
+    text-decoration: none;
+    outline: none;
+}
+
+.contact-info a:focus, .contact-info a:hover {
+    outline: none;
+    text-decoration: none;
+}
+
+.contact-info {
+    color: #E7DFD3 !important;
+}
+.contact-info strong {
+    color: #E7DFD3;
+}
+
